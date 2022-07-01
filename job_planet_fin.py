@@ -5,10 +5,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 import time
-import re
 import csv
-
-g = re.compile("\d+")
 
 driver = webdriver.Chrome('C:/Users/aq348/Desktop/Python/chromedriver.exe')
 driver.implicitly_wait(3)
